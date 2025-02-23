@@ -46,16 +46,10 @@ python yield_curve_model.py
 ```
 
 ## Output
-The script generates:
-1. **Yield Curve Fitting** plot comparing observed and Nelson-Siegel fitted yields.
-2. **Butterfly Spread Trading Signal** plot showing the convexity trends over time.
+The python code generates:
+1. **Yield Curve Fitting** plot compares observed and Nelson-Siegel fitted yields.
+2. **Butterfly Spread Trading Signal** plot shows the convexity trends over time.
 
-## Example Plots
-Yield Curve Fitting:
-![Yield Curve](images/yield_curve.png)
-
-Butterfly Spread:
-![Butterfly Spread](images/butterfly_spread.png)
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it as needed!
