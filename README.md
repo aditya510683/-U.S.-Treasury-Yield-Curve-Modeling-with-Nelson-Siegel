@@ -10,10 +10,10 @@ Y(t) = \beta_0 + \beta_1 \frac{1 - e^{-t/\tau}}{t/\tau} + \beta_2 \left(\frac{1 
 $$
 
 where:
-- \( \beta_0 \) represents the long-term yield level,
-- \( \beta_1 \) controls the short-term yield movements,
-- \( \beta_2 \) determines the medium-term curvature,
-- \( \tau \) is a decay factor influencing the yield curve shape.
+- $\beta_0$ represents the **long-term interest rate level**.
+- $\beta_1$ captures the **short-term rate dynamics**.
+- $\beta_2$ accounts for the **medium-term hump effect**.
+- $\tau$ governs the **speed of exponential decay** in the yield curve.
 
 ## Butterfly Spread Trading Strategy
 A **Butterfly Spread** is used to capture convexity changes in the yield curve. The spread is computed as:
